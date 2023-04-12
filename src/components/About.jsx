@@ -43,16 +43,26 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>About</h2>
       </motion.div>
 
+
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] '
       >
-       Hack the goals is a 24 hours hackathon that brings together passionate individuals with diverse skills
-and expertise to develop innovative solutions that address the United Nations&#39; SDGs. The hackathon
-provides a platform to develop solutions to different issues that persists on our community and
-make the world sustainable. The event focuses on basically 6 SDGs. Sustainable development is one
-of the most important issues of the century and solving the problems sustainably has a great
-importance.
+
+
+        <div>
+          <img className="max-w-[300px] max-h-[300px]  object-contain  " src="src/assets/HackLogo.png " />
+        </div>
+        <div className="w-full">
+          <p>        Hack the goals is a 24 hours hackathon that brings together passionate individuals with diverse skills
+            and expertise to develop innovative solutions that address the United Nations&#39; SDGs. The hackathon
+            provides a platform to develop solutions to different issues that persists on our community and
+            make the world sustainable. The event focuses on basically 6 SDGs. Sustainable development is one
+            of the most important issues of the century and solving the problems sustainably has a great
+            importance.</p>
+        </div>
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
