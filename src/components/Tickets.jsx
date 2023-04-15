@@ -87,9 +87,11 @@ function Tickets() {
                             </div>
 
                             <div className="mt-8">
-                                <button className="bg-violet-400 hover:bg-purple-500 px-3 py-2 rounded-lg w-full text-purple-200">
+                               <a href="https://min.lc/hackthegoals"> <button 
+                                className="bg-violet-400 hover:bg-purple-500 px-3 py-2 rounded-lg w-full text-purple-200">
                                     Register now
                                 </button>
+                                </a>
                             </div>
                         </div>
 
@@ -156,9 +158,11 @@ function Tickets() {
                             </div>
 
                             <div className="mt-8">
-                                <button className="bg-violet-400 hover:bg-purple-500 px-3 py-2 rounded-lg w-full text-purple-200">
+                            <a href="https://min.lc/hackthegoals"> <button 
+                                className="bg-violet-400 hover:bg-purple-500 px-3 py-2 rounded-lg w-full text-purple-200">
                                     Register now
                                 </button>
+                                </a>
                             </div>
                         </div>
                     </div>
